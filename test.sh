@@ -27,7 +27,7 @@ tests=(
     'n=8; bigint_subtract n n'           '0'
 )
 
-. arbitrash.sh
+. bash-bigint.sh
 
 fail() {
     echo "Test \`${tests[$1]}' failed. Expected \`${tests[$1+1]}', got \`$2'";
